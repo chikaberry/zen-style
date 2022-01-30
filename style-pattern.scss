@@ -64,3 +64,43 @@ section {
 .uppercase-light {
   @include atoms.uppercase($text-light);
 }
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./fonts/new-waltograph/NewWaltDisneyFontRegular-BPen.ttf);
+}
+@font-face {
+  font-family: mySecondFont;
+  src: url(./fonts/wicked-mouse-font/WickedMouse-aGoK.ttf);
+}
+@font-face {
+  font-family: smallerHeading;
+  src: url(./fonts/mouse-handwriting/MouseHandwriting.ttf);
+}
+@font-face {
+  font-family: myPragraphFont;
+  src: url(./fonts/mickorama-25039/Mickorama-5Rez.ttf);
+}
+
+.heading {
+  font-family: myFirstFont;
+  font-size: 3rem;
+}
+
+.heading2 {
+  font-family: mySecondFont;
+  font-size: 1.6rem;
+}
+
+.heading3 {
+  font-family: smallerHeading;
+  font-size: 2rem;
+}
+
+.the-body {
+  font-family: myPragraphFont;
+  font-size: 1.2rem;
+}
+h4.the-body {
+  font-size: 3rem;
+}
