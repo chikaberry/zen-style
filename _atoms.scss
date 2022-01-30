@@ -7,22 +7,22 @@
   line-height: $line-height;
 }
 
-@mixin set-flex($direction: row, $wrap: wrap) {
+@mixin set-grid() {
   display: flex;
-  flex-flow: $direction $wrap;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-@mixin uppercase($color: $text-dark) {
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: $color;
-}
-@mixin divider($color: $accent1) {
-  border-top: 1px solid $color;
-  margin-top: 1em;
-  padding-top: 1.5em;
-}
+// @mixin uppercase($color: $text-dark) {
+//   font-weight: 300;
+//   letter-spacing: 2px;
+//   text-transform: uppercase;
+//   color: $color;
+// }
+// @mixin divider($color: $accent1) {
+//   border-top: 1px solid $color;
+//   margin-top: 1em;
+//   padding-top: 1.5em;
+// }
 // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
 h2,
 h3,
@@ -31,12 +31,11 @@ h4 {
   margin: 0;
 }
 h1 {
-  background: $accent1;
+  background: $primary;
   color: $text-light;
   display: inline-block;
   font-weight: normal;
-  margin-bottom: 1em;
-  padding: 0.5em 1em;
+  
 }
 h2 {
   color: $text-light;
@@ -67,11 +66,9 @@ p {
 }
 
 a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   color: $text-dark;
-  text-decoration: none;
-  transition: border-color 0.2s ease-in-out;
 }
+
 a:hover {
   border-color: $accent1;
 }
