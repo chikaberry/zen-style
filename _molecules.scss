@@ -18,10 +18,17 @@
   a {
     color: $text-light; //in this case the link wants to be light instead of the default dark
   }
-}
+  }
 .preamble {
-  background: rgba(255, 255, 255, 0.9);
-  color: $text-dark;
+  background: $background-color;
+  color: $text-light;
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
+}
+.intro{
+  background-color: $accent1;
+  color:$text-light;
+  border-style:solid;
+  border-color:$primary;
+
 }
