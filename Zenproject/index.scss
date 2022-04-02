@@ -1,36 +1,3 @@
-$background-image: url("images/1571660.jpg");
-/*$fonts-body:
-$font-h1
-$font-h2
-$font-h3: helvetica;*/
-$color-primary: #F02D3A;
-$color-2: #232ED1;
-$color-3:#FAFF00;
-$color-4:#242423;
-
-@font-face {
-    font-family: myFirstFont;
-    src: url(./fonts/new-waltograph/NewWaltDisneyFontRegular-BPen.ttf);
-  }
-  @font-face {
-    font-family: mySecondFont;
-    src: url(./fonts/wicked-mouse-font/WickedMouse-aGoK.ttf);
-  }
-  @font-face {
-    font-family: smallerHeading;
-    src: url(./fonts/mouse-handwriting/MouseHandwriting.ttf);
-  }
-  @font-face {
-    font-family: myPragraphFont;
-    src: url(./fonts/mickorama-25039/Mickorama-5Rez.ttf);
-  }
-
-
-body{
-    background-image: $background-image;
-    color: $color-primary;
-
-}
 
 // .participation{
 //     background-color: $color-3;
