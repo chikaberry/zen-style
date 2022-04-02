@@ -1,4 +1,167 @@
-/* No CSS */
-/*# sourceMappingURL=index.css.map */
+$background-image: url("Zenproject/images/1571660.jpg");
+$fonts-body: Helvetica;
+$font-h1: Helvetica;
+$font-h2 : Helvetica;
+$font-h3: Helvetica;
+$color-primary: #F02D3A;
+$color-2: #232ED1;
+$color-3:#FAFF00;
+$color-4:black;
+$color-5:white;
+$header-font-size: 50px;
+$text-transform: uppercase;
 
-/*# sourceMappingURL=index.scss.map */
+@font-face {
+    font-family: headerFont;
+    src: url(./fonts/new-waltograph/NewWaltDisneyFontRegular-BPen.ttf);
+  }
+  @font-face {
+    font-family: mySecondFont;
+    src: url(./fonts/wicked-mouse-font/WickedMouse-aGoK.ttf);
+  }
+  @font-face {
+    font-family: smallerHeading;
+    src: url(./fonts/mouse-handwriting/MouseHandwriting.ttf);
+  }
+  @font-face {
+    font-family: myParagraphFont;
+    src: url(./fonts/mickorama-25039/Mickorama-5Rez.ttf);
+  }
+
+  
+body
+{ color:$color-5;
+background-image: url("images/1571660.jpg");
+background-repeat:no-repeat;
+background-position: center;
+width:100%;
+padding:2em;
+background-color: black;
+}
+
+header h1{
+    text-align: center;
+    text-transform: $text-transform;
+    font-size: $header-font-size;
+    font-family: headerFont;
+    background-image: url("header-background.jpg");
+    transition: transform .2s;
+    color:$color-4;
+    width:60%;
+    margin: auto;
+    border-color: $color-primary;
+    animation: zoom-in-zoom-out 3s ease infinite;
+
+    }
+
+    @keyframes zoom-in-zoom-out {
+        0% {
+          transform: scale(1, 1);
+        }
+        50% {
+          transform: scale(1.2, 1.2);
+        }
+        100% {
+          transform: scale(1, 1);
+        }
+      }
+
+header h1:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+      }
+
+header h2{
+    text-align: center;
+    text-transform: $text-transform;
+    font-family: headerFont;
+    background-image: url("header-background.jpg");
+    color:$color-4;
+    width:60%;
+    margin: auto;
+    animation: zoom-in-zoom-out 3s ease infinite;
+
+}
+a {
+    text-decoration: none;
+    color:$color-4;
+  }  
+
+
+#zen-summary p{
+    text-align: center;
+    text-transform: $text-transform;
+    font-family: headerFont;
+    font-weight:bold;
+    background-color: $color-primary;
+    width: 60%;
+    margin: auto;
+    margin-top: 5px;
+    border-style: ridge;
+    color:$color-5;
+    margin-top:10px;
+    margin-bottom: 10px;
+   
+
+}
+
+#zen-preamble{
+  background-color: white;
+  background-position: center;
+  color: $color-4;
+  background-repeat:no-repeat;
+  font-family: myParagraphFont;
+  font-size: 20px;
+  padding: 1em;
+  background-position: center;
+  p{
+    max-width: 100%;
+    margin: auto;
+  }
+  h3{
+    text-align: center;
+  }
+}
+
+
+
+@media only screen and (min-width: 60em) {
+  #zen-preamble{
+    background-image: url("images/mickey-mouse-border.png");
+    background-repeat:no-repeat;
+  
+    width: 100%;
+    height: 100%;
+    color:black;
+  
+    max-width: 50%;
+    background-size:100%;
+    
+    
+    padding-bottom: 20px;
+  
+    
+    
+    p{
+      
+     
+    }
+  
+  }
+  
+}
+
+
+@media screen and (min-width: 32em){
+  #zen-preamble{
+ 
+  background-position: center;
+  padding:2em;
+  margin: auto;
+    p{
+      max-width: 50%;
+    }
+  }
+
+}
