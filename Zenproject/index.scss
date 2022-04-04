@@ -144,11 +144,7 @@ a {
   
     
     
-    p{
-      
-     
-    }
-  
+    
   }
   
 }
@@ -167,3 +163,196 @@ a {
 
 }
 
+.wrapper{
+  display:grid;
+  justify-content: space-around;
+  background-color:black;
+  font-family: myPragraphFont;
+  color:white;
+  font-size: 30px;
+  
+  
+}
+
+.design-selection h3{
+  
+  text-align: center;
+  padding-top: 5px;
+  padding-top: 5px;
+  font-size: 50px;
+  color: #fff;
+font-size:40px;
+text-transform: uppercase;
+
+font-family: myPragraphFont;
+background: linear-gradient(to right,#095fab 10%, #25abe8 50%, red 60%);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-transform:  transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 1.5s linear infinite;
+display: inline-block;
+
+}
+
+
+      
+      
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+
+
+    }
+
+    .design-archives h3{
+      text-align: center;
+  padding-top: 5px;
+  padding-top: 5px;
+  font-size: 50px;
+  padding-left: 20px;
+  color: #fff;
+
+text-transform: uppercase;
+
+font-family: myPragraphFont;
+background: linear-gradient(to right,#095fab 10%,  white 60%);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-transform:  transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 1.5s linear infinite;
+display: inline-block;
+
+}
+
+
+.zen-resources h3{
+  text-align: center;
+padding-top: 5px;
+font-size: 45px;
+  padding-left: 20px;
+color: #fff;
+
+text-transform: uppercase;
+
+font-family: myPragraphFont;
+background: linear-gradient(to right, white 10%, salmon 30%);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-transform:  transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 1.5s linear infinite;
+display: inline-block;
+
+}
+
+
+  
+  
+@keyframes textclip {
+to {
+  background-position: 200% center;
+}
+
+
+}
+@media only screen and (min-width: 32em){
+
+  .wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    background-color: white;
+    color:red;
+    padding-left:20px;
+  }
+ 
+}
+   
+@media only screen and (min-width: 60em){
+.wrapper{
+    display:flex;
+    justify-content: space-around;
+    background-color:white;
+    font-family: myPragraphFont;
+    color:black;
+    font-size: 25px;
+    
+}
+
+.design-selection h3{
+  
+  text-align: center;
+  padding-top: 5px;
+  padding-top: 5px;
+  font-size: 50px;
+  color: #fff;
+font-size:40px;
+text-transform: uppercase;
+
+font-family: myPragraphFont;
+background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-transform:  transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 1.5s linear infinite;
+display: inline-block;
+
+}
+
+
+      
+      
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+
+
+    }
+
+
+    .design-archives h3{
+      text-align: center;
+  padding-top: 5px;
+  padding-top: 5px;
+  font-size: 50px;
+  color: #fff;
+
+text-transform: uppercase;
+
+font-family: myPragraphFont;
+background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-transform:  transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 1.5s linear infinite;
+display: inline-block;
+
+}
+
+}
